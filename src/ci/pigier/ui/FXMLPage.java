@@ -13,6 +13,6 @@ public enum FXMLPage {
     }
 
     public URL getPage() {
-        return  getClass().getResource(location) ;
+        return getClass().getResource(location);
     }
 }

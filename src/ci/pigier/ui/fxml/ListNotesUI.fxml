@@ -35,13 +35,13 @@
             </Label>
             <HBox alignment="CENTER" prefHeight="70.0" prefWidth="59.0">
                <children>
-                  <Button alignment="TOP_CENTER" contentDisplay="TEXT_ONLY" mnemonicParsing="false" onAction="#newNote" text="New Note" textAlignment="CENTER" wrapText="true" />
+                  <Button alignment="TOP_CENTER" contentDisplay="TEXT_ONLY" mnemonicParsing="false" onAction="#newNote" text="Nouvelle Note" textAlignment="CENTER" wrapText="true" />
                </children>
             </HBox>
          </children></HBox>
       <BorderPane prefHeight="50.0" prefWidth="450.0" style="-fx-border-color: black;">
          <left>
-            <TextField fx:id="searchNotes" prefHeight="36.0" prefWidth="341.0" promptText="Search current notes..." BorderPane.alignment="CENTER">
+            <TextField fx:id="searchNotes" prefHeight="36.0" prefWidth="341.0" promptText="Rechercher dans les notes..." BorderPane.alignment="CENTER">
                <BorderPane.margin>
                   <Insets left="10.0" />
                </BorderPane.margin></TextField>
@@ -62,19 +62,19 @@
       </BorderPane>
       <TableView fx:id="notesListTable" prefHeight="415.0" prefWidth="450.0">
         <columns>
-          <TableColumn fx:id="titleTc" editable="false" prefWidth="155.0" text="Title" />
+          <TableColumn fx:id="titleTc" editable="false" prefWidth="155.0" text="Titre" />
           <TableColumn fx:id="descriptionTc" editable="false" prefWidth="290.0" text="Description" />
         </columns>
       </TableView>
       <Separator prefWidth="200.0" />
       <HBox alignment="CENTER" prefHeight="60.0" prefWidth="450.0" spacing="50.0">
          <children>
-            <Button mnemonicParsing="false" onAction="#doDelete" prefHeight="40.0" prefWidth="100.0" text="Delete">
+            <Button mnemonicParsing="false" onAction="#doDelete" prefHeight="40.0" prefWidth="100.0" text="Supprimer">
                <font>
                   <Font size="14.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" onAction="#doEdit" prefHeight="40.0" prefWidth="100.0" text="Edit">
+            <Button mnemonicParsing="false" onAction="#doEdit" prefHeight="40.0" prefWidth="100.0" text="Modifier">
                <font>
                   <Font size="14.0" />
                </font>
